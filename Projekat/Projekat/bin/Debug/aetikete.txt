@@ -1,0 +1,1 @@
+[{"Oznaka":"Za mlade","Boja":"NavajoWhite","Opis":"Pogodno za mlade"},{"Oznaka":"Naučni program","Boja":"CornflowerBlue","Opis":"Manifestacija sadrži naučni program"},{"Oznaka":"Za decu","Boja":"LawnGreen","Opis":"Manifestacija namenjena deci"},{"Oznaka":"Za starije","Boja":"165, 42, 42","Opis":"Namenjeno starijoj populaciji"}]

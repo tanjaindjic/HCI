@@ -1,0 +1,9 @@
+﻿<Window x:Class="Projekat.Help.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/Projekat;component/Images/defLoc.png"
+        Title="About" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
+    </Grid>
+</Window>

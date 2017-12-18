@@ -1,0 +1,211 @@
+﻿<Window x:Class="Projekat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Manifestacije"  mc:Ignorable="d"  Height="655" Width="1350"
+        Icon="/Projekat;component/Images/defLoc.png"
+        xmlns:local="clr-namespace:Projekat"    
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:h="clr-namespace:Projekat.Help"
+    xmlns:validacija="clr-namespace:Projekat.Validacija"
+        ResizeMode="NoResize"
+        Name="mainWIn"        
+        h:HelpProvider.HelpString="glavniProzor"
+        WindowStartupLocation="CenterScreen"
+        >
+    <DockPanel Background="WhiteSmoke">
+
+        <!--menu-->
+        <Menu DockPanel.Dock="Top" Background="WhiteSmoke">
+
+            <MenuItem Header="_Dodaj">
+                <MenuItem Header="_Nova manifestacija" Click="NovaManifestacija_Click"></MenuItem>
+                <MenuItem Header="_Novi tip" Click="NoviTip_Click"></MenuItem>
+                <MenuItem Header="_Nova etiketa" Click="NovaEtiketa_Click"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Pregled" >
+                <MenuItem Header="_Pregled manifestacija" Click="PregledManifestacija_Click"></MenuItem>
+                <MenuItem Header="_Pregled tipova" Click="PregledTipova_Click"></MenuItem>
+                <MenuItem Header="_Pregled etiketa" Click="PregledEtiketa_Click"></MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="_Pomoć">
+                <MenuItem Header="_O Aplikaciji" Click="About_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+
+        <!--toolbar-->
+        <!--<ToolBarPanel DockPanel.Dock="Top" Background="White">
+            <ToolBar Background="White">
+                <Button>Dodaj</Button>
+                <Button>Pregled</Button>
+                <Button>Pomoc</Button>
+                <Button>DEMO</Button>
+            </ToolBar>
+        </ToolBarPanel>
+        -->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="116"/>
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="7.2"/>
+                <ColumnDefinition Width="0"/>
+                <ColumnDefinition Width="233.6"/>
+                <ColumnDefinition Width="787"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <Canvas x:Name="canvasMap" Width="752" h:HelpProvider.HelpString="mapa"  HorizontalAlignment="Center" Grid.Column="5" Height="414" VerticalAlignment="Top" Margin="25.2,0,10,0"  AllowDrop="True" DragEnter="DropList_DragEnter" Drop="dropOnMe_Drop">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="map.gif" />
+                </Canvas.Background>
+            </Canvas>
+            <Label x:Name="podaciOmanifestaciji" Content="Podaci o manifestaciji:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="336" Height="37" FontSize="20" Grid.ColumnSpan="5"/>
+            <Label x:Name="labNaziv" Content="Naziv:" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="naziv_textBox" h:HelpProvider.HelpString="manif" ToolTip="Obavezan unos naziva manifestacije. Dozvoljen unos slova, brojeva i donje crte." HorizontalAlignment="Left" Height="26" Margin="67,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TextChanged="textBox_TextChanged" FontSize="14" Grid.ColumnSpan="5">
+                <TextBox.Text>
+                    <Binding Path="Naziv" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules  >
+
+                            <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                            <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Medium"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+
+            <Label x:Name="labTip" Content="Tip:" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="tip_textBox" h:HelpProvider.HelpString="manif"  ToolTipService.ShowOnDisabled="True" ToolTip="Obavezan unos tipa manifestacije" IsEnabled="False" HorizontalAlignment="Left" Height="26" Margin="67,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" TextChanged="textBox_TextChanged" FontSize="14" Grid.ColumnSpan="5">
+                <TextBox.Text>
+                    <Binding Path="Tip" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules  >
+
+                            <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                            <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Medium"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+            <Label x:Name="labOznaka" Content="Oznaka:"  HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="oznaka_textBox" h:HelpProvider.HelpString="manif" ToolTip="Obavezan unos oznake manifestacije. Dozvoljen unos slova, brojeva i donje crte." HorizontalAlignment="Left" Height="26" Margin="67,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279" TextChanged="textBox_TextChanged" FontSize="14" Grid.ColumnSpan="5">
+                <TextBox.Text>
+                    <Binding Path="Oznaka" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules  >
+
+                            <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+                <Validation.ErrorTemplate>
+                    <ControlTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                            <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Medium"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Validation.ErrorTemplate>
+            </TextBox>
+
+            <Label x:Name="labDatum" Content="Datum:" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <DatePicker x:Name="datumPicker"  h:HelpProvider.HelpString="manif" SelectedDate="{x:Static sys:DateTime.Now}" ToolTip="Obavezan unos datuma manifestacije" HorizontalAlignment="Left" Height="26" Margin="67,145,0,0" VerticalAlignment="Top" Width="279" FontSize="14" Grid.ColumnSpan="5">
+            </DatePicker>
+            <Label x:Name="labPusenje" Content="Zabrana pušenja?" HorizontalAlignment="Left" Margin="10,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="labMesto" Content="Mesto održavanja:" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="labAlkohol" Content="Alkoholna pića:" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="labPublika" Content="Očekivana publika:" HorizontalAlignment="Left" Margin="10,459,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="labCene" Content="Rang cena:" HorizontalAlignment="Left" Margin="10,428,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <ComboBox x:Name="mesto_comboBox" h:HelpProvider.HelpString="manif" ToolTip="Opcion unos mesta održavanja manifestacije"  HorizontalAlignment="Left" Height="26" Margin="7,315,0,0"  VerticalAlignment="Top" Width="223" FontSize="14" ItemsSource="{Binding Path=Mesto}" Grid.ColumnSpan="4" Grid.Column="1"/>
+            <ComboBox x:Name="alkohol_comboBox"  h:HelpProvider.HelpString="manif" ToolTip="Opcion unos služenja alkohola na manifestaciji"  HorizontalAlignment="Left" Height="26" Margin="7,346,0,0" VerticalAlignment="Top" Width="223" FontSize="14" ItemsSource="{Binding Path=Alkohol}" Grid.ColumnSpan="4" Grid.Column="1"/>
+            <TextBox x:Name="etikete_textBox"  h:HelpProvider.HelpString="manif"  ToolTipService.ShowOnDisabled="True" ToolTip="Opcion unos etiketa manifestacije" IsReadOnly="True"  HorizontalAlignment="Left" Height="47" Margin="7,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" TextChanged="textBox_TextChanged" FontSize="12" Grid.ColumnSpan="4" Grid.Column="1"/>
+            <ComboBox x:Name="cene_comboBox"  h:HelpProvider.HelpString="manif"  ToolTip="Opcion unos ranga cena na manifestaciji"  HorizontalAlignment="Left" Height="26" Margin="7,428,0,0"  VerticalAlignment="Top" Width="223"  FontSize="14" ItemsSource="{Binding Path=Cena}" Grid.ColumnSpan="4" Grid.Column="1" />
+            <Label x:Name="labEtikete" Content="Etikete:" HorizontalAlignment="Left" Margin="10,377,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <Label x:Name="labOpis" Content="Opis:" HorizontalAlignment="Left" Margin="10,490,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="opis_textBox"  h:HelpProvider.HelpString="manif" ToolTip="Opcion unos opisa manifestacije" HorizontalAlignment="Left" Height="57" Margin="7,490,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" TextChanged="textBox_TextChanged" FontSize="14" Grid.ColumnSpan="4" Grid.Column="1"/>
+            <Button x:Name="novaManifestacijaBtn" Content="Nova manifestacija" Height="34" Margin="20,13,20,0" VerticalAlignment="Top" Cursor="Hand" ToolTip="Kreiranje nove manifestacije" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="NovaManifestacija_Click"/>
+            <Button x:Name="izmeniManifestacijuBtn" Cursor="Hand" Content="Izmeni manifestaciju" Height="34" Margin="20,52,20,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="izmeniManifestacijuBtn_Click"/>
+            <Button x:Name="obrisiManifestacijuBtn" Cursor="Hand" Content="Obriši manifestaciju" Height="34" Margin="20,91,20,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="obrisiManifestacijuBtn_Click"/>
+            <RadioButton x:Name="pusenjeDa" h:HelpProvider.HelpString="Opcion unos dozvole pušenja na manifestaciji." ToolTip="Opcion unos dozvole pušenja na manifestaciji"  GroupName="pusenjeGroup" Content="Da" HorizontalAlignment="Left" Margin="4,182,0,0" VerticalAlignment="Top" Height="15" Width="34" Grid.ColumnSpan="3" Grid.Column="2"/>
+            <RadioButton x:Name="pusenjeNe" h:HelpProvider.HelpString="Opcion unos dozvole pušenja na manifestaciji." ToolTip="Opcion unos dozvole pušenja na manifestaciji"  GroupName="pusenjeGroup" Content="Ne" HorizontalAlignment="Left" Margin="50.8,182,0,0" VerticalAlignment="Top" Height="15" Width="34" Grid.Column="4"/>
+            <Label x:Name="labInvalidi" Content="Prilaz za invalide?" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.263,6.577" Width="113" Height="26" Grid.ColumnSpan="2"/>
+            <RadioButton x:Name="invalidiDa"  h:HelpProvider.HelpString="manif" ToolTip="Opcion unos pristupa hendikepiranima na manifestaciji" GroupName="invalidiGroup" Content="Da" HorizontalAlignment="Left" Margin="4,213,0,0" VerticalAlignment="Top" Height="15" Width="34" Grid.ColumnSpan="3" Grid.Column="2"/>
+            <RadioButton x:Name="invalidiNe" h:HelpProvider.HelpString="manif" ToolTip="Opcion unos pristupa hendikepiranima na manifestaciji"  GroupName="invalidiGroup" Content="Ne" HorizontalAlignment="Left" Margin="50.8,213,0,0" VerticalAlignment="Top" Height="15" Width="34" Grid.Column="4"/>
+            <Label x:Name="labIkonica" Content="Ikonica:" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Height="26" Width="50"/>
+            <Image x:Name="ikonica" ToolTip="Opcion unos ikonice manifestacije" HorizontalAlignment="Left" Height="70" Margin="67,238,0,0" VerticalAlignment="Top" Width="70" Source="/Projekat;component/Images/placeholder.png" Grid.ColumnSpan="5"/>
+            <Button x:Name="odabirIkonice" ToolTip="Opcion unos ikonice manifestacije" Content="Odabir ikonice" HorizontalAlignment="Left" Margin="50.8,253,0,0" VerticalAlignment="Top" Width="126" Click="odabirIkonice_Click" Height="27" Grid.Column="4"/>
+            <Button x:Name="noviTip" Content="Novi tip" Height="34" Margin="20,130,20,0" VerticalAlignment="Top" Cursor="Hand"  FontSize="14" FontWeight="Bold" Grid.Column="6" Click="NoviTip_Click"/>
+            <Button x:Name="novaEtiketa" Content="Nova etiketa" Height="34" Margin="20,169,20,0" VerticalAlignment="Top" Cursor="Hand" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="NovaEtiketa_Click"/>
+            <Separator Grid.Column="6" Height="30" Margin="20,208,20,0" VerticalAlignment="Top"/>
+            <Button x:Name="pregledManifestacija" Content="Pregled manifestacija" Height="34" Margin="20,238,20,0" VerticalAlignment="Top" Cursor="Hand" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="PregledManifestacija_Click"/>
+            <Button x:Name="pregledTipova" Content="Pregled tipova" Height="34" Margin="20,277,20,0" VerticalAlignment="Top" Cursor="Hand"  FontSize="14" FontWeight="Bold" Grid.Column="6" Click="PregledTipova_Click"/>
+            <Button x:Name="pregledEtiketa" Content="Pregled etiketa" Height="34" Margin="20,315,20,0" VerticalAlignment="Top" Cursor="Hand" FontSize="14" FontWeight="Bold" Grid.Column="6" Click="PregledEtiketa_Click"/>
+            <ComboBox x:Name="publika_comboBox"  h:HelpProvider.HelpString="manif"  ToolTip="Opcion unos očekivane publike na manifestaciji"  HorizontalAlignment="Left" Height="26" Margin="7,459,0,0" VerticalAlignment="Top" Width="223"  FontSize="14" ItemsSource="{Binding Path=Publika}" Grid.ColumnSpan="4" Grid.Column="1" />
+            <Separator Grid.Column="6" Height="25" Margin="20,354,20,0" VerticalAlignment="Top" />
+            <Button x:Name="sacuvaj" Cursor="Hand" Content="Sačuvaj" Height="31" Margin="10,567,202.8,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="sacuvaj_Click" Grid.ColumnSpan="5"/>
+            <Button x:Name="pomoc" Cursor="Hand" Click="About_Click" Content="Pomoć" Grid.Column="6" Height="31" Margin="20,384,20,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+            <Button x:Name="logout"  Content="Izlogujte se" Grid.Column="6" Margin="20,0,20,10" FontSize="14" FontWeight="Bold" Height="31" VerticalAlignment="Bottom" Click="logout_Click"/>
+            <Button x:Name="odabirTipa" ToolTip="Obavezan unos tipa manifestacije"  Content="Odabir tipa" HorizontalAlignment="Left" Margin="128.8,83,0,0" VerticalAlignment="Top" Width="86" Click="odabirTipa_Click" Height="26" Grid.Column="4"/>
+            <Button x:Name="odabirEtiketa" ToolTip="Opcion unos etiketa manifestacije"  Content="Odabir etiketa" HorizontalAlignment="Left" Margin="123.8,388,0,0" VerticalAlignment="Top" Width="91" Click="odabirEtiketa_Click" Height="26" Grid.Column="4" RenderTransformOrigin="0.505,-0.015"/>
+
+
+            <DataGrid x:Name="manifestacijaBox" h:HelpProvider.HelpString="manifestacijaBox"  AutoGenerateColumns="False" ItemsSource="{Binding ManifList}" SelectionChanged="DataGrid_SelectionChanged" Grid.Column="5" Margin="416.2,428,10,10" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Oznaka" IsReadOnly="True" Binding="{Binding Oznaka}" Width="3*" />
+                    <DataGridTextColumn Header="Naziv" IsReadOnly="True" Binding="{Binding Naziv}" Width="3*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+
+            <Image x:Name="PrikazIkonice" Grid.Column="5" h:HelpProvider.HelpString="prikazIkonica"  HorizontalAlignment="Left" Height="97" Margin="141.2,459,0,0" VerticalAlignment="Top" Width="116" Cursor="Hand"  PreviewMouseLeftButtonDown="PrikazIkonice_PreviewMouseLeftButtonDown" MouseMove="PrikazIkonice_MouseMove"/>
+            <Label Content="Kliknite na manifestaciju i prevucite sliku na mapu za dodelu lokacije:" Grid.Column="5" HorizontalAlignment="Left" Margin="25.2,428,0,0" VerticalAlignment="Top" Width="386"/>
+            <Button Content="Ukloni sa mape" Grid.Column="5" HorizontalAlignment="Left" FontWeight="Bold" Margin="131.2,567,0,0" VerticalAlignment="Top" Width="113" Height="31" Click="Button_Click"/>
+            <Button x:Name="obrisiSve" Cursor="Hand" Content="Poništi sva polja" Height="31" Margin="62.8,567,18.8,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Click="obrisiSve_Click" Grid.Column="4"/>
+
+        </Grid>
+
+
+    </DockPanel>
+
+</Window>

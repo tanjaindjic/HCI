@@ -1,0 +1,1 @@
+[{"Oznaka":"s","Boja":"Tomato","Opis":"s"},{"Oznaka":"ds","Boja":"255, 239, 213","Opis":"sd"}]

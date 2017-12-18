@@ -1,0 +1,1 @@
+[{"Oznaka":"d","Naziv":"d","Opis":null,"Slika":"C:\\Users\\hrcak\\Desktop\\HCI\\Projekat\\Projekat\\Images\\defLoc.png"},{"Oznaka":"s","Naziv":"s","Opis":null,"Slika":"C:\\Users\\hrcak\\Desktop\\HCI\\Projekat\\Projekat\\Images\\island.png"}]

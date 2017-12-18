@@ -1,0 +1,68 @@
+﻿<Window x:Class="Projekat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ugrozene vrste" ResizeMode="CanMinimize" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="655" Width="1065">
+    <DockPanel>
+        <!--menu-->
+        <Menu DockPanel.Dock="Top" Background="White">
+            <!--<Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel HorizontalAlignment="Stretch"></DockPanel>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            -->
+            <MenuItem Header="_Menu1">
+                <MenuItem Header="_Podmeni"></MenuItem>
+                <MenuItem Header="_Podmeni 1"></MenuItem>
+            </MenuItem>
+            
+            <MenuItem Header="_Menu2" Background="White">
+                <MenuItem Header="_Podmeni" Background="White"></MenuItem>
+                <MenuItem Header="_Podmeni2" Background="White"></MenuItem>
+            </MenuItem>
+            
+            <MenuItem Header="_Menu3">
+                <MenuItem Header="_Podmeni"></MenuItem>
+                <MenuItem Header="_Podmeni2"></MenuItem>
+            </MenuItem>
+        </Menu>
+        
+        <!--toolbar-->
+        <ToolBarPanel DockPanel.Dock="Top" Background="White">
+            <ToolBar Background="White">
+                <Button>ikn1</Button>
+                <Button>ikn2</Button>
+            </ToolBar>
+        </ToolBarPanel>
+       
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="374*" />
+            </Grid.ColumnDefinitions>
+            
+            <!--lijeva strana-->
+            <Canvas Grid.Column="0">
+                <Canvas.Background>
+                    <SolidColorBrush Color="White"></SolidColorBrush>
+                </Canvas.Background>
+                
+                <TreeView>
+                    <TreeViewItem Header="Vrsta"></TreeViewItem>
+                    <TreeViewItem Header="sdasda"></TreeViewItem>
+                </TreeView>
+                
+                
+            </Canvas>
+            
+            <!--desna strana-->
+            <Canvas Grid.Column="1">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="map.gif" ></ImageBrush>
+                </Canvas.Background>
+            </Canvas>
+        </Grid>
+
+    </DockPanel>
+   
+</Window>

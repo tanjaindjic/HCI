@@ -1,0 +1,127 @@
+﻿<Window x:Class="Projekat.Dijalozi.izmeniManifestaciju"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekat.Dijalozi"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:validacija="clr-namespace:Projekat.Validacija"
+        xmlns:h="clr-namespace:Projekat.Help"
+        h:HelpProvider.HelpString="izmenaManif"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Icon="/Projekat;component/Images/defLoc.png"
+        Title="Izmena manifestacije" Height="667" Width="500">
+    <Grid>
+        <Label x:Name="label1" Content="Oznaka:" HorizontalAlignment="Left" Height="27" Margin="26,22,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="label_Copy12" Content="Naziv:" HorizontalAlignment="Left" Height="27" Margin="26,54,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="label_Copy13" Content="Opis:" HorizontalAlignment="Left" Height="27" Margin="26,86,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="oznaka_textbox"   h:HelpProvider.HelpString="izmenaManif" ToolTipService.ShowOnDisabled="True"  ToolTip="Nije moguće menjati oznaku manifestacije" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="104,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" FontSize="14" TextChanged="textBox_TextChanged">
+            <TextBox.Text>
+                <Binding Path="Oznaka" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules >
+                        <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+        <TextBox x:Name="naziv_textbox"   h:HelpProvider.HelpString="izmenaManif" ToolTip="Obavezan unos naziva manifestacije. Dozvoljen unos slova, brojeva i donje crte." HorizontalAlignment="Left" Height="27" Margin="104,54,0,0" VerticalAlignment="Top" Width="341" FontSize="14">
+            <TextBox.Text>
+                <Binding Path="Naziv" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules >
+                        <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+        <TextBox x:Name="opis_textBox"   h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos opisa manifestacije" Text="{Binding Opis}" HorizontalAlignment="Left" Height="80" Margin="104,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" FontSize="14" TextChanged="opis_textBox_TextChanged"/>
+        <Label x:Name="label_Copy14" Content="Tip:" HorizontalAlignment="Left" Height="27" Margin="26,171,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="tip_textBox"   h:HelpProvider.HelpString="izmenaManif"  ToolTip="Obavezan unos tipa manifestacije"  ToolTipService.ShowOnDisabled="True" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="104,171,0,0" VerticalAlignment="Top" Width="233" FontSize="14" TextChanged="tip_textBox_TextChanged">
+            <TextBox.Text>
+                <Binding Path="OznakaTipa" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules >
+                        <validacija:OznakaValidation ValidatesOnTargetUpdated="True"  />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <AdornedElementPlaceholder Grid.Column="0" Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding [0].ErrorContent}" Foreground="Red" VerticalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+        <Label x:Name = "label_Copy15" Content="Datum:" HorizontalAlignment="Left" Height="27" Margin="26,203,0,0" VerticalAlignment="Top" Width="73"/>
+        <DatePicker Margin="104,203,0,0"   h:HelpProvider.HelpString="izmenaManif" SelectedDate="{Binding Datum}" ToolTip="Obavezan unos datuma manifestacije" Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" Width="341"/>
+
+        <Label x:Name="label_Copy16" Content="Etikete:" HorizontalAlignment="Left" Height="27" Margin="26,235,0,0" VerticalAlignment="Top" Width="73"/>
+
+        <Label x:Name="label_Copy17" Content="Ikonica:" HorizontalAlignment="Left" Height="27" Margin="26,321,0,0" VerticalAlignment="Top" Width="73"/>
+        <Button x:Name="izaberiIkonicu" ToolTip="Opcion unos slike manifestacije" Content="Izaberi ikonicu" HorizontalAlignment="Left" Height="27" Margin="104,329,0,0" VerticalAlignment="Top" Width="164" Click="izaberiIkonicu_Click"/>
+        <Label x:Name="label_Copy18" Content="Dozvoljeno pušenje?" HorizontalAlignment="Left" Height="27" Margin="26,388,0,0" VerticalAlignment="Top" Width="129"/>
+        <RadioButton x:Name="pusenjeDa"   h:HelpProvider.HelpString="izmenaManif"   ToolTip="Opcion unos dozvole pušenja na manifestaciji"  GroupName="pusenjeGroup" IsChecked="{Binding BPusenjeDa}" Content="Da" HorizontalAlignment="Left" Height="21" Margin="155,394,0,0" VerticalAlignment="Top" Width="45"/>
+        <RadioButton x:Name="pusenjeNe"   h:HelpProvider.HelpString="izmenaManif"   ToolTip="Opcion unos dozvole pušenja na manifestaciji"  GroupName="pusenjeGroup" IsChecked="{Binding BPusenjeNe}" Content="Ne" HorizontalAlignment="Left" Height="21" Margin="205,394,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="label_Copy19" Content="Prilaz za hendikepirane?" HorizontalAlignment="Left" Height="27" Margin="26,420,0,0" VerticalAlignment="Top" Width="142"/>
+        <RadioButton x:Name="invalidiDa"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos pristupa hendikepiranima na manifestaciji"  GroupName="invalidiGroup" IsChecked="{Binding BInvalidiDa}" Content="Da" HorizontalAlignment="Left" Height="21" Margin="173,426,0,0" VerticalAlignment="Top" Width="45"/>
+        <RadioButton x:Name="invalidiNe"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos pristupa hendikepiranima na manifestaciji"  GroupName="invalidiGroup" IsChecked="{Binding BInvalidiNe}" Content="Ne" HorizontalAlignment="Left" Height="21" Margin="223,426,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label x:Name="label_Copy20" Content="Rang cena:" HorizontalAlignment="Left" Height="27" Margin="26,484,0,0" VerticalAlignment="Top" Width="73"/>
+        <ComboBox x:Name="cena"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos ranga cena na manifestaciji" SelectedValue="{Binding SCena}" HorizontalAlignment="Left" Height="27" Margin="139,484,0,0" VerticalAlignment="Top" Width="306" ItemsSource="{Binding Path=Cena }" SelectionChanged="cena_SelectionChanged" />
+        <Label x:Name="label_Copy21" Content="Mesto održavanja:" HorizontalAlignment="Left" Height="27" Margin="26,516,0,0" VerticalAlignment="Top" Width="108"/>
+        <ComboBox x:Name="comboBox_Copy4"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos mesta održavanja manifestacije"  SelectedValue="{Binding SMesto}" HorizontalAlignment="Left" Height="27" Margin="139,516,0,0" VerticalAlignment="Top" Width="306" ItemsSource="{Binding Path=Mesto}" SelectionChanged="comboBox_Copy4_SelectionChanged" />
+        <Label x:Name="label_Copy22" Content="Očekivana publika:" HorizontalAlignment="Left" Height="27" Margin="26,548,0,0" VerticalAlignment="Top" Width="108"/>
+        <ComboBox x:Name="publika"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos očekivane publike na manifestaciji" SelectedValue="{Binding SPublika}" HorizontalAlignment="Left" Height="27" Margin="139,548,0,0" VerticalAlignment="Top" Width="306" ItemsSource="{Binding Path=Publika}" />
+        <Label x:Name="label_Copy23" Content="Alkoholna pića:" HorizontalAlignment="Left" Height="27" Margin="26,452,0,0" VerticalAlignment="Top" Width="129"/>
+        <Button x:Name="button3" Content="Sačuvaj" HorizontalAlignment="Left" Height="27" Margin="299,599,0,0" VerticalAlignment="Top" Width="89" Click="button3_Click" Cursor="Hand"/>
+        <Button x:Name="button3_Copy" Cursor ="Hand" Content="Odustani" HorizontalAlignment="Left" Height="27" Margin="393,599,0,0" VerticalAlignment="Top" Width="89"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="64" Margin="273,329,0,0" VerticalAlignment="Top" Width="64">
+            <Image x:Name="ikonica" ToolTip="Opcion unos slike manifestacije" Source="{Binding Slika}" HorizontalAlignment="Left" Height="64" Margin="-1" VerticalAlignment="Top" Width="64"/>
+        </Border>
+        <Button x:Name="izaberiTip" ToolTip="Obavezan unos tipa manifestacije"  Content="Odabir tipa" HorizontalAlignment="Left" Height="27" Margin="358,170,0,0" VerticalAlignment="Top" Width="87" Click="izaberiTip_Click"/>
+        <Button x:Name="izaberiEtiketu" ToolTip="Opcion unos etiketa manifestacije" Content="Odabir etiketa" HorizontalAlignment="Left" Height="27" Margin="342,235,0,0" VerticalAlignment="Top" Width="103" Click="izaberiEtiketu_Click"/>
+        <ComboBox x:Name="alkohol"  h:HelpProvider.HelpString="izmenaManif" ToolTip="Opcion unos služenja alkohola na manifestaciji"  SelectedValue="{Binding SAlkohol}" HorizontalAlignment="Left" Height="27" Margin="139,452,0,0" VerticalAlignment="Top" Width="306" ItemsSource="{Binding Path=Alkohol}" SelectionChanged="alkohol_SelectionChanged" />
+        <TextBox Name ="etikete_textBox"  h:HelpProvider.HelpString="izmenaManif" ToolTipService.ShowOnDisabled="True"  Text="{Binding ListaEtiketa}" IsEnabled="False" HorizontalAlignment="Left" Height="89" Margin="104,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
+
+    </Grid>
+</Window>

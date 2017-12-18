@@ -1,0 +1,260 @@
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Etiketa\NovaEtiketa.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Etiketa\PregledEtiketa.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\Demo.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Tip\NoviTip.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Tip\PregledTipova.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Etiketa\NovaEtiketa.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Etiketa\PregledEtiketa.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\Demo.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Tip\NoviTip.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Tip\PregledTipova.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Projekat.pdb
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Manifestacija\PregledManifestacija.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Manifestacija\NovaManifestacija.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Manifestacija\PregledManifestacija.g.cs
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\patuljko\Desktop\HCI-master\Projekat\Projekat\obj\x86\Release\Manifestacija\NovaManifestacija.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat.pdb
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\Demo.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\Demo.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.baml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\bin\Release\Newtonsoft.Json.dll
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\bin\Release\Newtonsoft.Json.xml
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.g.cs
+C:\Users\patuljko\Desktop\proba\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.dll
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.xml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.baml
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\ra145-2014\Desktop\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.pdb
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.xml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.pdb
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.baml
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.g.cs
+C:\Users\Dule\Desktop\prebaceno\noviprojk\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.pdb
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Demo.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Help\Tutorijal.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\pregledEtiketa.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\pregledTipova.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\Newtonsoft.Json.xml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\pregledEtiketa.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Tabele\pregledTipova.baml
+C:\Users\ra145-2014\Desktop\nova verzija\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Pomoc.chm
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Properties\Resources.Designer.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Projekat.exe
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Projekat.pdb
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Newtonsoft.Json.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\Newtonsoft.Json.xml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat.csprojResolveAssemblyReference.cache
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Help\About.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniEtiketu.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniManifestaciju.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniTip.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Help\About.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Login.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\MainWindow.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Registracija.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\pregledEtiketa.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\pregledTipova.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\App.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat_Content.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.cache
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat_MarkupCompile.lref
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniEtiketu.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniManifestaciju.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\izmeniTip.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaEtiketa.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NovaManifestacija.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\NoviTip.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirEtikete.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Dijalozi\odabirTipa.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Login.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\MainWindow.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Registracija.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\pregledEtiketa.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\PregledManifestacija.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Tabele\pregledTipova.baml
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat.g.resources
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat.exe
+C:\Users\hrcak\Desktop\HCI\Projekat\Projekat\obj\x86\Release\Projekat.pdb
